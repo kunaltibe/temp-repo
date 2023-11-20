@@ -81,6 +81,16 @@ public class Order {
         else {return false;}
         
     }
+    
+    public boolean isOrderBelowTotalTarget() {
+        int sum = 0;
+        for (OrderItem oi: orderitems){
+            sum = sum + oi.getOrderItemTargetTotal(); //product targets are added
+        }
+        if(getOrderTotal()<sum) {return true;}
+        else {return false;}
+    }
+    
 public void CancelOrder(){
     status = "Cancelled";
 }

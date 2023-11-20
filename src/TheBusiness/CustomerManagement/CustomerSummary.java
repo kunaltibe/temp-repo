@@ -14,9 +14,28 @@ import TheBusiness.OrderManagement.Order;
 public class CustomerSummary {
     CustomerProfile customer;
     int ordertotal;
+    int numberofordersabovetarget;
+    int numberofordersbelowtarget;
+    int orderpriceperformance;
     public CustomerSummary(CustomerProfile cp){
-        
+        customer = cp;
+        numberofordersabovetarget = cp.getNumberOfOrdersAboveTotalTarget();
+        numberofordersbelowtarget = cp.getNumberOfOrdersBelowTotalTarget();
+        orderpriceperformance = cp.getTotalPricePerformance();
     }
-    
-    
+    public int totalOrders() {
+        return ordertotal;
+    }
+
+    public int getOrdersAboveTarget() {
+        return numberofordersabovetarget;
+    }
+
+    public int getOrderPricePerformance() {
+        return orderpriceperformance;
+    }
+
+    public int getOrdersBelowTarget() {
+        return numberofordersbelowtarget;
+    }
 }
