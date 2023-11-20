@@ -87,14 +87,19 @@ class PopulateModel_UI {
                     
                     if(b.getSupplierDirectory().findSupplier(supplier) == null){
                         SupplierDirectory suplierdirectory = business.getSupplierDirectory();
-                        Supplier s = suplierdirectory.newSupplier(supplier); 
+                        Supplier sup = suplierdirectory.newSupplier(supplier); 
                             
                         }
+                    else{
+                        i += 1;
+                        System.out.println("Supplier: "+supplier+" already exists "+i); 
+                    }
                     
                     JsonNode productsNode = customerNode.path("Solution").path("Products");
                             if (productsNode.isArray()) {
+                                int k=0;
                             for (JsonNode productNode : productsNode) {
-                                ProductCatalog productcatalog = s.getProductCatalog();
+                                ProductCatalog productcatalog = sup.getProductCatalog();
                                 
                                 String productName = productNode.get("name").asText();
                                 int floorPrice = productNode.get("floorPrice").asInt();
@@ -112,15 +117,16 @@ class PopulateModel_UI {
                                 System.out.println("  Target Price: " + targetPrice);
                                 System.out.println();
                                 }
-                    else{
-                        i += 1;
-                        System.out.println("Supplier: "+supplier+" already exists "+i); 
-                    }
+                                else{
+                                    k += 1;
+                                    System.out.println("Product: "+productName+" already exists "+k);
+                                }
+                    
                     
                     }
                 }
             }
-            for()
+//            for()
                 
             
 //        catch (IOException ex) {
