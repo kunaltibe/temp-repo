@@ -1,0 +1,3872 @@
+[
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 15,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 963,
+            "ceilingPrice": 2139,
+            "targetPrice": 1305
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 713,
+            "ceilingPrice": 2358,
+            "targetPrice": 1862
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 878,
+            "ceilingPrice": 2440,
+            "targetPrice": 1076
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 643,
+            "ceilingPrice": 2491,
+            "targetPrice": 1664
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 918,
+            "ceilingPrice": 2131,
+            "targetPrice": 1164
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 17,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 608,
+            "ceilingPrice": 2067,
+            "targetPrice": 1356
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 763,
+            "ceilingPrice": 2318,
+            "targetPrice": 1276
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 746,
+            "ceilingPrice": 2282,
+            "targetPrice": 1854
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 727,
+            "ceilingPrice": 2341,
+            "targetPrice": 1229
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 797,
+            "ceilingPrice": 2496,
+            "targetPrice": 1409
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 894,
+            "ceilingPrice": 2338,
+            "targetPrice": 1604
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 901,
+            "ceilingPrice": 2248,
+            "targetPrice": 1736
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 760,
+            "ceilingPrice": 2003,
+            "targetPrice": 1067
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 429,
+            "ceilingPrice": 2258,
+            "targetPrice": 1495
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 812,
+            "ceilingPrice": 2198,
+            "targetPrice": 1962
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 585,
+            "ceilingPrice": 2185,
+            "targetPrice": 1930
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 887,
+            "ceilingPrice": 2019,
+            "targetPrice": 1915
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 654,
+            "ceilingPrice": 2225,
+            "targetPrice": 1584
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 496,
+            "ceilingPrice": 2247,
+            "targetPrice": 1280
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 607,
+            "ceilingPrice": 2493,
+            "targetPrice": 1083
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 432,
+            "ceilingPrice": 2098,
+            "targetPrice": 1846
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": -7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 968,
+            "ceilingPrice": 2032,
+            "targetPrice": 1456
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 513,
+            "ceilingPrice": 2332,
+            "targetPrice": 1719
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 669,
+            "ceilingPrice": 2377,
+            "targetPrice": 1440
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 572,
+            "ceilingPrice": 2093,
+            "targetPrice": 1520
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 0,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 970,
+            "ceilingPrice": 2466,
+            "targetPrice": 1805
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 589,
+            "ceilingPrice": 2016,
+            "targetPrice": 1068
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 479,
+            "ceilingPrice": 2280,
+            "targetPrice": 1640
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 931,
+            "ceilingPrice": 2491,
+            "targetPrice": 1072
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 491,
+            "ceilingPrice": 2062,
+            "targetPrice": 1724
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 781,
+            "ceilingPrice": 2440,
+            "targetPrice": 1877
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 462,
+            "ceilingPrice": 2491,
+            "targetPrice": 1370
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 807,
+            "ceilingPrice": 2033,
+            "targetPrice": 1323
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 900,
+            "ceilingPrice": 2073,
+            "targetPrice": 1171
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 666,
+            "ceilingPrice": 2046,
+            "targetPrice": 1658
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 12,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 958,
+            "ceilingPrice": 2107,
+            "targetPrice": 1721
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 966,
+            "ceilingPrice": 2170,
+            "targetPrice": 1352
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 712,
+            "ceilingPrice": 2490,
+            "targetPrice": 1254
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 19,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 776,
+            "ceilingPrice": 2177,
+            "targetPrice": 1099
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 606,
+            "ceilingPrice": 2248,
+            "targetPrice": 1451
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 904,
+            "ceilingPrice": 2183,
+            "targetPrice": 1753
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 745,
+            "ceilingPrice": 2043,
+            "targetPrice": 1050
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 12,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 668,
+            "ceilingPrice": 2058,
+            "targetPrice": 1241
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 429,
+            "ceilingPrice": 2142,
+            "targetPrice": 1459
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 435,
+            "ceilingPrice": 2174,
+            "targetPrice": 1675
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 913,
+            "ceilingPrice": 2323,
+            "targetPrice": 1743
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 952,
+            "ceilingPrice": 2324,
+            "targetPrice": 1141
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 504,
+            "ceilingPrice": 2046,
+            "targetPrice": 1436
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 605,
+            "ceilingPrice": 2478,
+            "targetPrice": 1200
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 420,
+            "ceilingPrice": 2041,
+            "targetPrice": 1396
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 628,
+            "ceilingPrice": 2055,
+            "targetPrice": 1997
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 423,
+            "ceilingPrice": 2397,
+            "targetPrice": 1108
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 926,
+            "ceilingPrice": 2388,
+            "targetPrice": 1606
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 674,
+            "ceilingPrice": 2169,
+            "targetPrice": 1851
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 575,
+            "ceilingPrice": 2016,
+            "targetPrice": 1292
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 942,
+            "ceilingPrice": 2131,
+            "targetPrice": 1857
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 859,
+            "ceilingPrice": 2253,
+            "targetPrice": 1944
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 695,
+            "ceilingPrice": 2148,
+            "targetPrice": 1257
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 604,
+            "ceilingPrice": 2049,
+            "targetPrice": 1880
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 949,
+            "ceilingPrice": 2409,
+            "targetPrice": 1816
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 710,
+            "ceilingPrice": 2356,
+            "targetPrice": 1535
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 493,
+            "ceilingPrice": 2197,
+            "targetPrice": 1695
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 585,
+            "ceilingPrice": 2105,
+            "targetPrice": 1836
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 899,
+            "ceilingPrice": 2130,
+            "targetPrice": 1203
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 538,
+            "ceilingPrice": 2414,
+            "targetPrice": 1949
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 810,
+            "ceilingPrice": 2489,
+            "targetPrice": 1763
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 490,
+            "ceilingPrice": 2307,
+            "targetPrice": 1373
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 609,
+            "ceilingPrice": 2320,
+            "targetPrice": 1730
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 761,
+            "ceilingPrice": 2260,
+            "targetPrice": 1890
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 526,
+            "ceilingPrice": 2343,
+            "targetPrice": 1487
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 754,
+            "ceilingPrice": 2166,
+            "targetPrice": 1527
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 446,
+            "ceilingPrice": 2390,
+            "targetPrice": 1734
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 962,
+            "ceilingPrice": 2054,
+            "targetPrice": 1072
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 919,
+            "ceilingPrice": 2134,
+            "targetPrice": 1127
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 772,
+            "ceilingPrice": 2105,
+            "targetPrice": 1107
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 911,
+            "ceilingPrice": 2225,
+            "targetPrice": 1046
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 457,
+            "ceilingPrice": 2271,
+            "targetPrice": 1320
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 837,
+            "ceilingPrice": 2097,
+            "targetPrice": 1138
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 887,
+            "ceilingPrice": 2447,
+            "targetPrice": 1258
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 765,
+            "ceilingPrice": 2016,
+            "targetPrice": 1954
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 703,
+            "ceilingPrice": 2234,
+            "targetPrice": 1481
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 878,
+            "ceilingPrice": 2485,
+            "targetPrice": 1213
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 798,
+            "ceilingPrice": 2274,
+            "targetPrice": 1228
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 967,
+            "ceilingPrice": 2462,
+            "targetPrice": 1907
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 592,
+            "ceilingPrice": 2164,
+            "targetPrice": 1207
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 835,
+            "ceilingPrice": 2487,
+            "targetPrice": 1120
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": -8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 455,
+            "ceilingPrice": 2262,
+            "targetPrice": 1733
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 703,
+            "ceilingPrice": 2248,
+            "targetPrice": 1789
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 428,
+            "ceilingPrice": 2066,
+            "targetPrice": 1742
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 762,
+            "ceilingPrice": 2040,
+            "targetPrice": 1872
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 909,
+            "ceilingPrice": 2066,
+            "targetPrice": 1589
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 675,
+            "ceilingPrice": 2160,
+            "targetPrice": 1090
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 14,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 733,
+            "ceilingPrice": 2073,
+            "targetPrice": 1906
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 486,
+            "ceilingPrice": 2376,
+            "targetPrice": 1350
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 917,
+            "ceilingPrice": 2041,
+            "targetPrice": 1203
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 965,
+            "ceilingPrice": 2371,
+            "targetPrice": 1820
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 459,
+            "ceilingPrice": 2062,
+            "targetPrice": 1346
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 641,
+            "ceilingPrice": 2377,
+            "targetPrice": 1656
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 840,
+            "ceilingPrice": 2008,
+            "targetPrice": 1494
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 826,
+            "ceilingPrice": 2251,
+            "targetPrice": 1591
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 489,
+            "ceilingPrice": 2295,
+            "targetPrice": 1004
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 437,
+            "ceilingPrice": 2075,
+            "targetPrice": 1995
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 550,
+            "ceilingPrice": 2103,
+            "targetPrice": 1365
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 966,
+            "ceilingPrice": 2436,
+            "targetPrice": 1803
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 539,
+            "ceilingPrice": 2451,
+            "targetPrice": 1925
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 407,
+            "ceilingPrice": 2202,
+            "targetPrice": 1466
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": -1,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 533,
+            "ceilingPrice": 2469,
+            "targetPrice": 1963
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 614,
+            "ceilingPrice": 2271,
+            "targetPrice": 1640
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 760,
+            "ceilingPrice": 2166,
+            "targetPrice": 1888
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": -8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 585,
+            "ceilingPrice": 2254,
+            "targetPrice": 1000
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 460,
+            "ceilingPrice": 2148,
+            "targetPrice": 1313
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 866,
+            "ceilingPrice": 2306,
+            "targetPrice": 1838
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 676,
+            "ceilingPrice": 2335,
+            "targetPrice": 1211
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 607,
+            "ceilingPrice": 2002,
+            "targetPrice": 1261
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 763,
+            "ceilingPrice": 2339,
+            "targetPrice": 1826
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 659,
+            "ceilingPrice": 2279,
+            "targetPrice": 1415
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 722,
+            "ceilingPrice": 2419,
+            "targetPrice": 1237
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 608,
+            "ceilingPrice": 2385,
+            "targetPrice": 1089
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 17,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 933,
+            "ceilingPrice": 2483,
+            "targetPrice": 1258
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 575,
+            "ceilingPrice": 2468,
+            "targetPrice": 1601
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 479,
+            "ceilingPrice": 2378,
+            "targetPrice": 1032
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 13,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 596,
+            "ceilingPrice": 2194,
+            "targetPrice": 1598
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 987,
+            "ceilingPrice": 2251,
+            "targetPrice": 1038
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 983,
+            "ceilingPrice": 2298,
+            "targetPrice": 1065
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 584,
+            "ceilingPrice": 2105,
+            "targetPrice": 1165
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 565,
+            "ceilingPrice": 2337,
+            "targetPrice": 1697
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 466,
+            "ceilingPrice": 2396,
+            "targetPrice": 1988
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 899,
+            "ceilingPrice": 2359,
+            "targetPrice": 1599
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 787,
+            "ceilingPrice": 2460,
+            "targetPrice": 1180
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 567,
+            "ceilingPrice": 2418,
+            "targetPrice": 1394
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 880,
+            "ceilingPrice": 2340,
+            "targetPrice": 1204
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 434,
+            "ceilingPrice": 2053,
+            "targetPrice": 1597
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 901,
+            "ceilingPrice": 2114,
+            "targetPrice": 1523
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 803,
+            "ceilingPrice": 2098,
+            "targetPrice": 1528
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 607,
+            "ceilingPrice": 2008,
+            "targetPrice": 1726
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 880,
+            "ceilingPrice": 2362,
+            "targetPrice": 1868
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 775,
+            "ceilingPrice": 2339,
+            "targetPrice": 1330
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 697,
+            "ceilingPrice": 2089,
+            "targetPrice": 1193
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 611,
+            "ceilingPrice": 2453,
+            "targetPrice": 1322
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 869,
+            "ceilingPrice": 2148,
+            "targetPrice": 1881
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 634,
+            "ceilingPrice": 2292,
+            "targetPrice": 1355
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": -9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 778,
+            "ceilingPrice": 2346,
+            "targetPrice": 1428
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 927,
+            "ceilingPrice": 2104,
+            "targetPrice": 1110
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 515,
+            "ceilingPrice": 2052,
+            "targetPrice": 1403
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 813,
+            "ceilingPrice": 2250,
+            "targetPrice": 1869
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": -7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 588,
+            "ceilingPrice": 2323,
+            "targetPrice": 1057
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 849,
+            "ceilingPrice": 2459,
+            "targetPrice": 1645
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 453,
+            "ceilingPrice": 2445,
+            "targetPrice": 1783
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 771,
+            "ceilingPrice": 2148,
+            "targetPrice": 1480
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 767,
+            "ceilingPrice": 2351,
+            "targetPrice": 1917
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 922,
+            "ceilingPrice": 2395,
+            "targetPrice": 1326
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 829,
+            "ceilingPrice": 2023,
+            "targetPrice": 1162
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 523,
+            "ceilingPrice": 2182,
+            "targetPrice": 1732
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 427,
+            "ceilingPrice": 2232,
+            "targetPrice": 1801
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": -2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 660,
+            "ceilingPrice": 2041,
+            "targetPrice": 1625
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 566,
+            "ceilingPrice": 2186,
+            "targetPrice": 1485
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 830,
+            "ceilingPrice": 2312,
+            "targetPrice": 1030
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 559,
+            "ceilingPrice": 2039,
+            "targetPrice": 1374
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 925,
+            "ceilingPrice": 2045,
+            "targetPrice": 1366
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 647,
+            "ceilingPrice": 2439,
+            "targetPrice": 1566
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 0,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 600,
+            "ceilingPrice": 2323,
+            "targetPrice": 1850
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 947,
+            "ceilingPrice": 2012,
+            "targetPrice": 1642
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 781,
+            "ceilingPrice": 2282,
+            "targetPrice": 1353
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 661,
+            "ceilingPrice": 2274,
+            "targetPrice": 1409
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 568,
+            "ceilingPrice": 2283,
+            "targetPrice": 1688
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": -7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 406,
+            "ceilingPrice": 2426,
+            "targetPrice": 1369
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 892,
+            "ceilingPrice": 2073,
+            "targetPrice": 1760
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 613,
+            "ceilingPrice": 2403,
+            "targetPrice": 1948
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 567,
+            "ceilingPrice": 2449,
+            "targetPrice": 1469
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 11,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 871,
+            "ceilingPrice": 2004,
+            "targetPrice": 1160
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 628,
+            "ceilingPrice": 2229,
+            "targetPrice": 1015
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 712,
+            "ceilingPrice": 2003,
+            "targetPrice": 1720
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 838,
+            "ceilingPrice": 2361,
+            "targetPrice": 1864
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 724,
+            "ceilingPrice": 2306,
+            "targetPrice": 1683
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 871,
+            "ceilingPrice": 2087,
+            "targetPrice": 1762
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 678,
+            "ceilingPrice": 2395,
+            "targetPrice": 1016
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 574,
+            "ceilingPrice": 2227,
+            "targetPrice": 1545
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 718,
+            "ceilingPrice": 2131,
+            "targetPrice": 1259
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 19,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 539,
+            "ceilingPrice": 2494,
+            "targetPrice": 1849
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 416,
+            "ceilingPrice": 2123,
+            "targetPrice": 1506
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 682,
+            "ceilingPrice": 2447,
+            "targetPrice": 1899
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 657,
+            "ceilingPrice": 2114,
+            "targetPrice": 1263
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 832,
+            "ceilingPrice": 2428,
+            "targetPrice": 1346
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": -10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 559,
+            "ceilingPrice": 2444,
+            "targetPrice": 1610
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 549,
+            "ceilingPrice": 2285,
+            "targetPrice": 1574
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 978,
+            "ceilingPrice": 2330,
+            "targetPrice": 1567
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 880,
+            "ceilingPrice": 2273,
+            "targetPrice": 1529
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 443,
+            "ceilingPrice": 2096,
+            "targetPrice": 1234
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 14,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 623,
+            "ceilingPrice": 2214,
+            "targetPrice": 1429
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 500,
+            "ceilingPrice": 2387,
+            "targetPrice": 1530
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 994,
+            "ceilingPrice": 2144,
+            "targetPrice": 1337
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 570,
+            "ceilingPrice": 2290,
+            "targetPrice": 1750
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 473,
+            "ceilingPrice": 2426,
+            "targetPrice": 1006
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 400,
+            "ceilingPrice": 2052,
+            "targetPrice": 1385
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 677,
+            "ceilingPrice": 2191,
+            "targetPrice": 1591
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 430,
+            "ceilingPrice": 2159,
+            "targetPrice": 1539
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 856,
+            "ceilingPrice": 2033,
+            "targetPrice": 1454
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 517,
+            "ceilingPrice": 2081,
+            "targetPrice": 1148
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 521,
+            "ceilingPrice": 2164,
+            "targetPrice": 1801
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 469,
+            "ceilingPrice": 2382,
+            "targetPrice": 1996
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 479,
+            "ceilingPrice": 2167,
+            "targetPrice": 1357
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 463,
+            "ceilingPrice": 2116,
+            "targetPrice": 1065
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 18,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 858,
+            "ceilingPrice": 2326,
+            "targetPrice": 1567
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 701,
+            "ceilingPrice": 2106,
+            "targetPrice": 1486
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 719,
+            "ceilingPrice": 2346,
+            "targetPrice": 1732
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 513,
+            "ceilingPrice": 2284,
+            "targetPrice": 1481
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 15,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 481,
+            "ceilingPrice": 2265,
+            "targetPrice": 1975
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 514,
+            "ceilingPrice": 2342,
+            "targetPrice": 1221
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 476,
+            "ceilingPrice": 2063,
+            "targetPrice": 1990
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 552,
+            "ceilingPrice": 2089,
+            "targetPrice": 1016
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 823,
+            "ceilingPrice": 2446,
+            "targetPrice": 1865
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 540,
+            "ceilingPrice": 2053,
+            "targetPrice": 1253
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 544,
+            "ceilingPrice": 2058,
+            "targetPrice": 1418
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 736,
+            "ceilingPrice": 2333,
+            "targetPrice": 1339
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 536,
+            "ceilingPrice": 2021,
+            "targetPrice": 1640
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 476,
+            "ceilingPrice": 2134,
+            "targetPrice": 1025
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 783,
+            "ceilingPrice": 2358,
+            "targetPrice": 1228
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 782,
+            "ceilingPrice": 2084,
+            "targetPrice": 1576
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 745,
+            "ceilingPrice": 2331,
+            "targetPrice": 1408
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 785,
+            "ceilingPrice": 2382,
+            "targetPrice": 1664
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 592,
+            "ceilingPrice": 2146,
+            "targetPrice": 1868
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 726,
+            "ceilingPrice": 2463,
+            "targetPrice": 1939
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 530,
+            "ceilingPrice": 2151,
+            "targetPrice": 1491
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 837,
+            "ceilingPrice": 2262,
+            "targetPrice": 1272
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 764,
+            "ceilingPrice": 2044,
+            "targetPrice": 1178
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 826,
+            "ceilingPrice": 2235,
+            "targetPrice": 1254
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": -6,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 903,
+            "ceilingPrice": 2284,
+            "targetPrice": 1634
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 453,
+            "ceilingPrice": 2427,
+            "targetPrice": 1647
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 865,
+            "ceilingPrice": 2172,
+            "targetPrice": 1130
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 641,
+            "ceilingPrice": 2329,
+            "targetPrice": 1448
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 879,
+            "ceilingPrice": 2176,
+            "targetPrice": 1356
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 795,
+            "ceilingPrice": 2175,
+            "targetPrice": 1244
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 710,
+            "ceilingPrice": 2135,
+            "targetPrice": 1732
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 684,
+            "ceilingPrice": 2496,
+            "targetPrice": 1582
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 20,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 558,
+            "ceilingPrice": 2483,
+            "targetPrice": 1865
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 920,
+            "ceilingPrice": 2242,
+            "targetPrice": 1826
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 643,
+            "ceilingPrice": 2185,
+            "targetPrice": 1685
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 885,
+            "ceilingPrice": 2153,
+            "targetPrice": 1654
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 750,
+            "ceilingPrice": 2409,
+            "targetPrice": 1651
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 784,
+            "ceilingPrice": 2303,
+            "targetPrice": 1002
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 804,
+            "ceilingPrice": 2027,
+            "targetPrice": 1887
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 988,
+            "ceilingPrice": 2410,
+            "targetPrice": 1398
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 860,
+            "ceilingPrice": 2133,
+            "targetPrice": 1872
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 886,
+            "ceilingPrice": 2172,
+            "targetPrice": 1214
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 452,
+            "ceilingPrice": 2419,
+            "targetPrice": 1053
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 735,
+            "ceilingPrice": 2282,
+            "targetPrice": 1175
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 956,
+            "ceilingPrice": 2317,
+            "targetPrice": 1274
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 728,
+            "ceilingPrice": 2326,
+            "targetPrice": 1420
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 712,
+            "ceilingPrice": 2385,
+            "targetPrice": 1251
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 999,
+            "ceilingPrice": 2037,
+            "targetPrice": 1790
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 580,
+            "ceilingPrice": 2217,
+            "targetPrice": 1610
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 950,
+            "ceilingPrice": 2100,
+            "targetPrice": 1290
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 705,
+            "ceilingPrice": 2308,
+            "targetPrice": 1664
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 501,
+            "ceilingPrice": 2413,
+            "targetPrice": 1456
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 12,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 549,
+            "ceilingPrice": 2148,
+            "targetPrice": 1492
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 698,
+            "ceilingPrice": 2485,
+            "targetPrice": 1020
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 789,
+            "ceilingPrice": 2137,
+            "targetPrice": 1469
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 950,
+            "ceilingPrice": 2080,
+            "targetPrice": 1792
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 825,
+            "ceilingPrice": 2277,
+            "targetPrice": 1413
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": -4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 563,
+            "ceilingPrice": 2214,
+            "targetPrice": 1498
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 713,
+            "ceilingPrice": 2455,
+            "targetPrice": 1968
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 915,
+            "ceilingPrice": 2262,
+            "targetPrice": 1701
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 720,
+            "ceilingPrice": 2197,
+            "targetPrice": 1999
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 490,
+            "ceilingPrice": 2429,
+            "targetPrice": 1107
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 980,
+            "ceilingPrice": 2257,
+            "targetPrice": 1499
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 6,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 468,
+            "ceilingPrice": 2130,
+            "targetPrice": 1497
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 441,
+            "ceilingPrice": 2130,
+            "targetPrice": 1782
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 556,
+            "ceilingPrice": 2412,
+            "targetPrice": 1378
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 13,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 815,
+            "ceilingPrice": 2075,
+            "targetPrice": 1524
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 911,
+            "ceilingPrice": 2118,
+            "targetPrice": 1809
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 783,
+            "ceilingPrice": 2124,
+            "targetPrice": 1315
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 664,
+            "ceilingPrice": 2408,
+            "targetPrice": 1580
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 900,
+            "ceilingPrice": 2101,
+            "targetPrice": 1869
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 443,
+            "ceilingPrice": 2145,
+            "targetPrice": 1627
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 844,
+            "ceilingPrice": 2188,
+            "targetPrice": 1139
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 845,
+            "ceilingPrice": 2004,
+            "targetPrice": 1273
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 614,
+            "ceilingPrice": 2097,
+            "targetPrice": 1003
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 408,
+            "ceilingPrice": 2111,
+            "targetPrice": 1897
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 887,
+            "ceilingPrice": 2271,
+            "targetPrice": 1974
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 682,
+            "ceilingPrice": 2044,
+            "targetPrice": 1731
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 843,
+            "ceilingPrice": 2006,
+            "targetPrice": 1726
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 934,
+            "ceilingPrice": 2115,
+            "targetPrice": 1636
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 705,
+            "ceilingPrice": 2299,
+            "targetPrice": 1377
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 524,
+            "ceilingPrice": 2401,
+            "targetPrice": 1286
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 802,
+            "ceilingPrice": 2463,
+            "targetPrice": 1732
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 17,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 903,
+            "ceilingPrice": 2423,
+            "targetPrice": 1755
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 834,
+            "ceilingPrice": 2329,
+            "targetPrice": 1833
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 943,
+            "ceilingPrice": 2191,
+            "targetPrice": 1891
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 670,
+            "ceilingPrice": 2472,
+            "targetPrice": 1275
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 411,
+            "ceilingPrice": 2439,
+            "targetPrice": 1410
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 470,
+            "ceilingPrice": 2011,
+            "targetPrice": 1106
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 846,
+            "ceilingPrice": 2248,
+            "targetPrice": 1659
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 985,
+            "ceilingPrice": 2086,
+            "targetPrice": 1977
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 635,
+            "ceilingPrice": 2099,
+            "targetPrice": 1227
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 746,
+            "ceilingPrice": 2458,
+            "targetPrice": 1827
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 900,
+            "ceilingPrice": 2043,
+            "targetPrice": 1287
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 699,
+            "ceilingPrice": 2409,
+            "targetPrice": 1751
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 567,
+            "ceilingPrice": 2407,
+            "targetPrice": 1942
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 603,
+            "ceilingPrice": 2451,
+            "targetPrice": 1733
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 868,
+            "ceilingPrice": 2298,
+            "targetPrice": 1477
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 13,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 740,
+            "ceilingPrice": 2364,
+            "targetPrice": 1843
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 749,
+            "ceilingPrice": 2290,
+            "targetPrice": 1534
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 475,
+            "ceilingPrice": 2249,
+            "targetPrice": 1343
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 905,
+            "ceilingPrice": 2124,
+            "targetPrice": 1998
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 969,
+            "ceilingPrice": 2432,
+            "targetPrice": 1752
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 846,
+            "ceilingPrice": 2335,
+            "targetPrice": 1217
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 507,
+            "ceilingPrice": 2193,
+            "targetPrice": 1197
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -2,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 463,
+            "ceilingPrice": 2120,
+            "targetPrice": 1718
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 491,
+            "ceilingPrice": 2373,
+            "targetPrice": 1223
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 479,
+            "ceilingPrice": 2347,
+            "targetPrice": 1587
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 6,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 949,
+            "ceilingPrice": 2023,
+            "targetPrice": 1379
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 624,
+            "ceilingPrice": 2132,
+            "targetPrice": 1911
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 416,
+            "ceilingPrice": 2058,
+            "targetPrice": 1174
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 467,
+            "ceilingPrice": 2435,
+            "targetPrice": 1196
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 20,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 685,
+            "ceilingPrice": 2094,
+            "targetPrice": 1757
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 532,
+            "ceilingPrice": 2344,
+            "targetPrice": 1205
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 733,
+            "ceilingPrice": 2473,
+            "targetPrice": 1124
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 449,
+            "ceilingPrice": 2119,
+            "targetPrice": 1469
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 674,
+            "ceilingPrice": 2139,
+            "targetPrice": 1033
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -7,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 763,
+            "ceilingPrice": 2241,
+            "targetPrice": 1698
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 430,
+            "ceilingPrice": 2372,
+            "targetPrice": 1565
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 628,
+            "ceilingPrice": 2489,
+            "targetPrice": 1080
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 943,
+            "ceilingPrice": 2336,
+            "targetPrice": 1744
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 19,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 488,
+            "ceilingPrice": 2114,
+            "targetPrice": 1575
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 558,
+            "ceilingPrice": 2326,
+            "targetPrice": 1101
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 745,
+            "ceilingPrice": 2405,
+            "targetPrice": 1855
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 953,
+            "ceilingPrice": 2083,
+            "targetPrice": 1051
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 837,
+            "ceilingPrice": 2076,
+            "targetPrice": 1368
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": -5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 412,
+            "ceilingPrice": 2263,
+            "targetPrice": 1150
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 664,
+            "ceilingPrice": 2295,
+            "targetPrice": 1059
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 978,
+            "ceilingPrice": 2395,
+            "targetPrice": 1460
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 617,
+            "ceilingPrice": 2470,
+            "targetPrice": 1120
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 600,
+            "ceilingPrice": 2009,
+            "targetPrice": 1993
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 622,
+            "ceilingPrice": 2453,
+            "targetPrice": 1299
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 638,
+            "ceilingPrice": 2278,
+            "targetPrice": 1451
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 12,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 963,
+            "ceilingPrice": 2459,
+            "targetPrice": 1552
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 648,
+            "ceilingPrice": 2122,
+            "targetPrice": 1540
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 858,
+            "ceilingPrice": 2287,
+            "targetPrice": 1593
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 617,
+            "ceilingPrice": 2336,
+            "targetPrice": 1588
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 422,
+            "ceilingPrice": 2213,
+            "targetPrice": 1059
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 500,
+            "ceilingPrice": 2199,
+            "targetPrice": 1909
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 13,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 811,
+            "ceilingPrice": 2129,
+            "targetPrice": 1562
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 439,
+            "ceilingPrice": 2137,
+            "targetPrice": 1380
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 504,
+            "ceilingPrice": 2344,
+            "targetPrice": 1898
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 674,
+            "ceilingPrice": 2409,
+            "targetPrice": 1781
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 728,
+            "ceilingPrice": 2044,
+            "targetPrice": 1451
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 707,
+            "ceilingPrice": 2160,
+            "targetPrice": 1601
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 467,
+            "ceilingPrice": 2222,
+            "targetPrice": 1753
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 823,
+            "ceilingPrice": 2116,
+            "targetPrice": 1279
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 940,
+            "ceilingPrice": 2280,
+            "targetPrice": 1895
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 949,
+            "ceilingPrice": 2116,
+            "targetPrice": 1642
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 606,
+            "ceilingPrice": 2329,
+            "targetPrice": 1006
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 890,
+            "ceilingPrice": 2265,
+            "targetPrice": 1775
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 688,
+            "ceilingPrice": 2077,
+            "targetPrice": 1878
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 604,
+            "ceilingPrice": 2085,
+            "targetPrice": 1925
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -10,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 978,
+            "ceilingPrice": 2065,
+            "targetPrice": 1891
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 731,
+            "ceilingPrice": 2362,
+            "targetPrice": 1187
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 481,
+            "ceilingPrice": 2422,
+            "targetPrice": 1042
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 631,
+            "ceilingPrice": 2252,
+            "targetPrice": 1929
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 551,
+            "ceilingPrice": 2497,
+            "targetPrice": 1762
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 990,
+            "ceilingPrice": 2009,
+            "targetPrice": 1496
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 970,
+            "ceilingPrice": 2078,
+            "targetPrice": 1189
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 945,
+            "ceilingPrice": 2331,
+            "targetPrice": 1063
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 19,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod2",
+            "floorPrice": 711,
+            "ceilingPrice": 2435,
+            "targetPrice": 1822
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 427,
+            "ceilingPrice": 2161,
+            "targetPrice": 1616
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 975,
+            "ceilingPrice": 2451,
+            "targetPrice": 1589
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 650,
+            "ceilingPrice": 2354,
+            "targetPrice": 1629
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 698,
+            "ceilingPrice": 2496,
+            "targetPrice": 1475
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 655,
+            "ceilingPrice": 2396,
+            "targetPrice": 1707
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 16,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 841,
+            "ceilingPrice": 2032,
+            "targetPrice": 1954
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 998,
+            "ceilingPrice": 2252,
+            "targetPrice": 1785
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 813,
+            "ceilingPrice": 2189,
+            "targetPrice": 1034
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 811,
+            "ceilingPrice": 2047,
+            "targetPrice": 1392
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 927,
+            "ceilingPrice": 2426,
+            "targetPrice": 1714
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 668,
+            "ceilingPrice": 2475,
+            "targetPrice": 1336
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 957,
+            "ceilingPrice": 2201,
+            "targetPrice": 1034
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 779,
+            "ceilingPrice": 2218,
+            "targetPrice": 1264
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "TV",
+      "PriceVariation": -5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 827,
+            "ceilingPrice": 2153,
+            "targetPrice": 1994
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 666,
+            "ceilingPrice": 2054,
+            "targetPrice": 1372
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 661,
+            "ceilingPrice": 2300,
+            "targetPrice": 1066
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 837,
+            "ceilingPrice": 2093,
+            "targetPrice": 1027
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 579,
+            "ceilingPrice": 2296,
+            "targetPrice": 1111
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -8,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 469,
+            "ceilingPrice": 2036,
+            "targetPrice": 1982
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 401,
+            "ceilingPrice": 2139,
+            "targetPrice": 1408
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 682,
+            "ceilingPrice": 2186,
+            "targetPrice": 1915
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 513,
+            "ceilingPrice": 2215,
+            "targetPrice": 1378
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 12,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 535,
+            "ceilingPrice": 2164,
+            "targetPrice": 1539
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 988,
+            "ceilingPrice": 2466,
+            "targetPrice": 1188
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 772,
+            "ceilingPrice": 2175,
+            "targetPrice": 1130
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 492,
+            "ceilingPrice": 2251,
+            "targetPrice": 1212
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 762,
+            "ceilingPrice": 2120,
+            "targetPrice": 1660
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 3",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": 3,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 828,
+            "ceilingPrice": 2006,
+            "targetPrice": 1252
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 600,
+            "ceilingPrice": 2111,
+            "targetPrice": 1210
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 409,
+            "ceilingPrice": 2185,
+            "targetPrice": 1488
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 683,
+            "ceilingPrice": 2202,
+            "targetPrice": 1327
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 656,
+            "ceilingPrice": 2183,
+            "targetPrice": 1636
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "JP Morgan",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": -6,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 831,
+            "ceilingPrice": 2151,
+            "targetPrice": 1277
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 693,
+            "ceilingPrice": 2258,
+            "targetPrice": 1523
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 604,
+            "ceilingPrice": 2326,
+            "targetPrice": 1043
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 869,
+            "ceilingPrice": 2050,
+            "targetPrice": 1090
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 960,
+            "ceilingPrice": 2175,
+            "targetPrice": 1508
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 801,
+            "ceilingPrice": 2298,
+            "targetPrice": 1639
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": -4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 988,
+            "ceilingPrice": 2053,
+            "targetPrice": 1038
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 463,
+            "ceilingPrice": 2128,
+            "targetPrice": 1333
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 858,
+            "ceilingPrice": 2071,
+            "targetPrice": 1368
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "Web",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 753,
+            "ceilingPrice": 2213,
+            "targetPrice": 1113
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 448,
+            "ceilingPrice": 2207,
+            "targetPrice": 1186
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 459,
+            "ceilingPrice": 2154,
+            "targetPrice": 1674
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 893,
+            "ceilingPrice": 2428,
+            "targetPrice": 1844
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 683,
+            "ceilingPrice": 2053,
+            "targetPrice": 1673
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 412,
+            "ceilingPrice": 2216,
+            "targetPrice": 1808
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 4,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 923,
+            "ceilingPrice": 2098,
+            "targetPrice": 1066
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 726,
+            "ceilingPrice": 2335,
+            "targetPrice": 1485
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 640,
+            "ceilingPrice": 2162,
+            "targetPrice": 1176
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 0,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 708,
+            "ceilingPrice": 2017,
+            "targetPrice": 1122
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 637,
+            "ceilingPrice": 2099,
+            "targetPrice": 1132
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 833,
+            "ceilingPrice": 2010,
+            "targetPrice": 1158
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 648,
+            "ceilingPrice": 2387,
+            "targetPrice": 1108
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "College Grads",
+      "Channel": "Web",
+      "PriceVariation": 14,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod4",
+            "floorPrice": 965,
+            "ceilingPrice": 2087,
+            "targetPrice": 1659
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 728,
+            "ceilingPrice": 2254,
+            "targetPrice": 1954
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 559,
+            "ceilingPrice": 2360,
+            "targetPrice": 1941
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Microsoft",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -5,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod3",
+            "floorPrice": 809,
+            "ceilingPrice": 2492,
+            "targetPrice": 1475
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 578,
+            "ceilingPrice": 2390,
+            "targetPrice": 1565
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 400,
+            "ceilingPrice": 2046,
+            "targetPrice": 1162
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 959,
+            "ceilingPrice": 2084,
+            "targetPrice": 1287
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 908,
+            "ceilingPrice": 2033,
+            "targetPrice": 1154
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 447,
+            "ceilingPrice": 2215,
+            "targetPrice": 1217
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "State Street",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 9,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 454,
+            "ceilingPrice": 2085,
+            "targetPrice": 1429
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 469,
+            "ceilingPrice": 2193,
+            "targetPrice": 1957
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 423,
+            "ceilingPrice": 2079,
+            "targetPrice": 1347
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Seniors",
+      "Channel": "TV",
+      "PriceVariation": 17,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod1",
+            "floorPrice": 500,
+            "ceilingPrice": 2061,
+            "targetPrice": 1116
+          },
+          {
+            "name": "prod5",
+            "floorPrice": 584,
+            "ceilingPrice": 2415,
+            "targetPrice": 1517
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 420,
+            "ceilingPrice": 2357,
+            "targetPrice": 1759
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Dell",
+      "SalesPerson": "SalesGuy 2",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "Web",
+      "PriceVariation": -6,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod5",
+            "floorPrice": 408,
+            "ceilingPrice": 2080,
+            "targetPrice": 1312
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 840,
+            "ceilingPrice": 2192,
+            "targetPrice": 1346
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 809,
+            "ceilingPrice": 2069,
+            "targetPrice": 1307
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 562,
+            "ceilingPrice": 2223,
+            "targetPrice": 1441
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 599,
+            "ceilingPrice": 2165,
+            "targetPrice": 1018
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 770,
+            "ceilingPrice": 2399,
+            "targetPrice": 1994
+          }
+        ]
+      }
+    },
+    {
+      "Customer": "Google",
+      "SalesPerson": "SalesGuy 1",
+      "Supplier": "Lenovo",
+      "Market": "Teenagers",
+      "Channel": "TV",
+      "PriceVariation": 19,
+      "Solution": {
+        "Products": [
+          {
+            "name": "prod6",
+            "floorPrice": 996,
+            "ceilingPrice": 2004,
+            "targetPrice": 1246
+          },
+          {
+            "name": "prod3",
+            "floorPrice": 760,
+            "ceilingPrice": 2200,
+            "targetPrice": 1193
+          },
+          {
+            "name": "prod6",
+            "floorPrice": 531,
+            "ceilingPrice": 2123,
+            "targetPrice": 1826
+          },
+          {
+            "name": "prod4",
+            "floorPrice": 750,
+            "ceilingPrice": 2472,
+            "targetPrice": 1328
+          },
+          {
+            "name": "prod1",
+            "floorPrice": 524,
+            "ceilingPrice": 2470,
+            "targetPrice": 1443
+          },
+          {
+            "name": "prod2",
+            "floorPrice": 672,
+            "ceilingPrice": 2207,
+            "targetPrice": 1926
+          }
+        ]
+      }
+    }
+  ]
