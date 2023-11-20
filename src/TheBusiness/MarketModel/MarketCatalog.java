@@ -29,5 +29,15 @@ public class MarketCatalog {
         markets.add(market);
         return market;
     }
+    
+    public Market findMarket(String type){
+        
+        for( Market m: markets ){
+            
+            if (m.getMarket().equalsIgnoreCase(type)) return m;
+            
+        }
+        return null;
+    }
 
 }

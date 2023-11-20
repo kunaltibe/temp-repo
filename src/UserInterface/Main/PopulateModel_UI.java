@@ -11,6 +11,10 @@ import MarketingManagement.MarketingPersonProfile;
 import TheBusiness.Business.Business;
 import TheBusiness.CustomerManagement.CustomerDirectory;
 import TheBusiness.CustomerManagement.CustomerProfile;
+import TheBusiness.MarketModel.Channel;
+import TheBusiness.MarketModel.ChannelCatalog;
+import TheBusiness.MarketModel.Market;
+import TheBusiness.MarketModel.MarketCatalog;
 import TheBusiness.OrderManagement.MasterOrderList;
 import TheBusiness.OrderManagement.Order;
 import TheBusiness.OrderManagement.OrderItem;
@@ -94,11 +98,31 @@ class PopulateModel_UI {
                         i += 1;
                         System.out.println("Supplier: "+supplier+" already exists "+i); 
                     }
+                    //Market
+                    if(b.getMarketCatalog().findMarket(market) == null){
+                        MarketCatalog marketCatalog = business.getMarketCatalog();
+                        Market m = marketCatalog.newMarket(market); 
+
+                        }
+                    else{
+                        i += 1;
+                        System.out.println("Market: "+market+" already exists "+i); 
+                    }
+                    //Channel
+                    if(b.getChannelCatalog().findChannel(channel) == null){
+                        ChannelCatalog channelCatalog = business.getChannelCatalog();
+                        Channel c = channelCatalog.newChannel(channel); 
+
+                        }
+                    else{
+                        i += 1;
+                        System.out.println("Channel: "+channel+" already exists "+i); 
+                    }
                     
                     JsonNode productsNode = customerNode.path("Solution").path("Products");
                             if (productsNode.isArray()) {
-                                int k=0;
                             for (JsonNode productNode : productsNode) {
+                                
                                 ProductCatalog productcatalog = sup.getProductCatalog();
                                 
                                 String productName = productNode.get("name").asText();
@@ -118,26 +142,13 @@ class PopulateModel_UI {
                                 System.out.println();
                                 }
                                 else{
-                                    k += 1;
-                                    System.out.println("Product: "+productName+" already exists "+k);
+                                    System.out.println("Product: "+productName+" already exists ");
                                 }
                     
                     
                     }
                 }
             }
-//            for()
-                
-            
-//        catch (IOException ex) {
-//            Logger.getLogger(PopulateModel_UI.class.getName()).log(Level.SEVERE, null, ex);
-//            System.out.println(ex);
-//        }
-        
-        
-//        return b;
-    
-    
 }
 }       catch (IOException ex) {
             Logger.getLogger(PopulateModel_UI.class.getName()).log(Level.SEVERE, null, ex);

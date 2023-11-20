@@ -34,6 +34,9 @@ public class Market {
 
         validchannels.add(c);
     }
+    public String getMarket( ){
+        return name;
+    }
     
 
 }
