@@ -77,5 +77,27 @@ public final class UseCases {
         System.out.println("\n");
     }
     
+    public void Top3Customers() {
+    HashMap<String, Integer> topThreeCustomer = new HashMap<>();        
+        for(CustomerProfile c : this.customerDirectory.getCustomerlist()) {
+                topThreeCustomer.put(c.getPerson().getName(), c.getNumberOfOrdersAboveTotalTarget());
+        }
+        List<Map.Entry<String, Integer>> sortedEntries = topThreeCustomer.entrySet()
+            .stream()
+            .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+            .collect(Collectors.toList());
+        System.out.println("Top Three Customers");
+        System.out.println("--------------------------------------");
+        int count = 1;
+        for (Map.Entry<String, Integer> entry : sortedEntries) {
+            if (count <= 3) {
+                System.out.println(count +  ") " + entry.getKey());
+                count++;
+            } else {
+                break;
+            }
+        }
+        System.out.println("\n");
+}
 }
 
