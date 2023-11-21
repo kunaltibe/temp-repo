@@ -69,6 +69,86 @@ public class PricingMainFrame extends javax.swing.JFrame {
         this.masterSolutionOrderList = business.getMasterSolutionOrderList();
         this.solutionOfferCatalog = business.getSolutionOfferCatalog();
         
+        UseCases usecase = new UseCases(business);
+        
+        
+        /* */
+        
+        /* Question No 2 */
+        HashMap<String, Integer> topThreeCustomer = new HashMap<>();        
+        for(CustomerProfile c : this.customerDirectory.getCustomerlist()) {
+                topThreeCustomer.put(c.getPerson().getName(), c.getNumberOfOrdersAboveTotalTarget());
+        }
+        List<Map.Entry<String, Integer>> sortedEntries = topThreeCustomer.entrySet()
+            .stream()
+            .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+            .collect(Collectors.toList());
+        System.out.println("Top Three Customers (Question 2)");
+        System.out.println("--------------------------------");
+        int count = 1;
+        for (Map.Entry<String, Integer> entry : sortedEntries) {
+            if (count <= 3) {
+                System.out.println(count +  ") " + entry.getKey());
+                count++;
+            } else {
+                break;
+            }
+        }
+        System.out.println("\n");
+        /* */
+        
+        /* Question No 3 */
+        System.out.println("Top Three Sales Person (Question 3)");
+        System.out.println("-----------------------------------");
+        HashMap<String, Integer> topThreeSalesPerson = new HashMap<>(); 
+        for(SalesPersonProfile s : this.salesPersonDirectory.getSalespersonlist()) {
+            int salesCount = 0;
+            for(Order o : this.masterOrderList.getOrders()) {
+                if(s.getPerson().getName().equals(o.getSalesperson().getPerson().getName())) {
+                    if(o.isOrderAboveTotalTarget()) {
+                        salesCount = salesCount + 1;
+                    }
+                }
+            }
+            topThreeSalesPerson.put(s.getPerson().getName(), salesCount);
+        }
+        List<Map.Entry<String, Integer>> sortedEntriesSalesPersons = topThreeSalesPerson.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .collect(Collectors.toList());
+        int j = 1;
+        for (Map.Entry<String, Integer> entry : sortedEntriesSalesPersons) {
+            if (j <= 3) {
+                System.out.println(j + ") " + entry.getKey());
+                j++;
+            } else {
+                break;
+            }
+        }        
+        System.out.println("\n");
+        /* */
+        
+        /* Question No 4 */
+        System.out.println("Market Revenues (Question 4)");
+        System.out.println("----------------------------");
+        int i = 1;
+        for(Market m : this.marketCatalog.getMarkets()) {
+            int sum = 0;
+            for(Order o : this.masterOrderList.getOrders()) {
+                if(m.getName().equals(o.getMarketName())) {
+                    sum = sum + o.getOrderPricePerformance();
+                }
+            }
+            System.out.println(i + ") " + m.getName() + " : " + sum);
+            i = i + 1;
+        }
+        /* */
+        
+        /* Question No 5 */
+        
+        /* */
+        System.out.println("\n");
+        System.out.println(business);
     }
     
     
@@ -202,6 +282,9 @@ public class PricingMainFrame extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(PricingMainFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
