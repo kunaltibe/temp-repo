@@ -73,12 +73,12 @@ class ConfigureABusiness {
         personDirectory.addNewPerson(person008);
         personDirectory.addNewPerson(person009);
         /* ---------------------------------------------------------------------------------------- */
-        Product productp1 = new Product("Scanner 3  1", 2000, 16500, 10000);
-        Product productp2 = new Product("Scanner 4", 10000, 25000, 16500);
-        Product productp3 = new Product("Printer 2", 22000, 40000, 36500);   
-        Product productp4 = new Product("Photocopier 2 ", 30000, 70000, 50000);
-        Product productp5 = new Product("Scanner  5", 19000, 36500, 25000);
-        Product productp6 = new Product("Scanner 6", 90000, 125000, 105000);
+        Product productp1 = new Product("Scanner 3  1", 500, 1500, 1000);
+        Product productp2 = new Product("Scanner 4",100, 200, 150);
+        Product productp3 = new Product("Printer 2",50, 150, 100);  
+        Product productp4 = new Product("Photocopier 2", 50, 150, 100);
+        Product productp5 = new Product("Scanner  5", 75, 125, 100);
+        Product productp6 = new Product("Scanner 6", 80, 140, 110);
         
         Order order1 = new Order();
         order1.newOrderItem(productp1, 18000, 1);
