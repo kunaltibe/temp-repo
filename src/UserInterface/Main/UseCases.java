@@ -55,7 +55,18 @@ public final class UseCases {
 
     UseCases(Business business) {
         this.business = business;
+        this.customerDirectory = business.getCustomerDirectory();
+        this.marketCatalog = business.getMarketCatalog();
+        this.masterOrderList = business.getMasterOrderList();
+        this.personDirectory = business.getPersonDirectory();
+        this.salesPersonDirectory = business.getSalesPersonDirectory();
+        this.masterSolutionOrderList = business.getMasterSolutionOrderList();
+        this.solutionOfferCatalog = business.getSolutionOfferCatalog();
+        
         Top3Negotiated();
+        Top3Customers();
+        Top3Salesperson();
+        MarketRevenues();
         
     }
     
@@ -99,5 +110,55 @@ public final class UseCases {
         }
         System.out.println("\n");
 }
+    
+        public void Top3Salesperson(){
+        System.out.println("Top Three Sales Person");
+        System.out.println("-----------------------------------");
+        HashMap<String, Integer> topThreeSalesPerson = new HashMap<>(); 
+        for(SalesPersonProfile s : this.salesPersonDirectory.getSalespersonlist()) {
+            int salesCount = 0;
+            for(Order o : this.masterOrderList.getOrders()) {
+                if(s.getPerson().getName().equals(o.getSalesperson().getPerson().getName())) {
+                    if(o.isOrderAboveTotalTarget()) {
+                        salesCount = salesCount + 1;
+                    }
+                }
+            }
+            topThreeSalesPerson.put(s.getPerson().getName(), salesCount);
+        }
+        List<Map.Entry<String, Integer>> sortedEntriesSalesPersons = topThreeSalesPerson.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .collect(Collectors.toList());
+        int j = 1;
+        for (Map.Entry<String, Integer> entry : sortedEntriesSalesPersons) {
+            if (j <= 3) {
+                System.out.println(j + ") " + entry.getKey());
+                j++;
+            } else {
+                break;
+            }
+        }        
+        System.out.println("\n");
+        }
+        
+        public void MarketRevenues(){
+             System.out.println("Market Revenues");
+        System.out.println("----------------------");
+        int i = 1;
+        for(Market m : this.marketCatalog.getMarkets()) {
+            int sum = 0;
+            for(Order o : this.masterOrderList.getOrders()) {
+                if(m.getName().equals(o.getMarketName())) {
+                    sum = sum + o.getOrderPricePerformance();
+                }
+            }
+            System.out.println(i + ") " + m.getName() + " : " + sum);
+            i = i + 1;
+        }
+        }
+        
+        
+        
 }
 
