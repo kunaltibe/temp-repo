@@ -160,18 +160,18 @@ class ConfigureABusiness {
         customer3.addCustomerOrder(order4);
         customer3.addCustomerOrder(order5);
         /* ---------------------------------------------------------------------------------------- */
-        Product product14 = new Product("Speedy color Scanner 611", 900000, 125000, 1650000);
-        Product product15 = new Product("Premier Printer 300", 322000, 470000, 736500);
-        Product product16 = new Product("Color Photocopier 500", 350000, 580000, 780000);
-        Product product17 = new Product("Scanner 23  1", 22000, 36500, 25000);
-        Product product18 = new Product("Scanner 24", 50000, 215000, 16500);
-        Product product19 = new Product("Printer 12", 52000, 490000, 365000); 
-        Product product20 = new Product("Photocopier 3 ", 530000, 870000, 150000);
-        Product product21 = new Product("Scanner  15", 59000, 126500, 275000);
+        Product product14 = new Product("Speedy color Scanner 611", 100, 125, 165);
+        Product product15 = new Product("Premier Printer 300", 322, 470, 736);
+        Product product16 = new Product("Color Photocopier 500", 350, 580, 780);
+        Product product17 = new Product("Scanner 23  1", 220, 365, 250);
+        Product product18 = new Product("Scanner 24", 500, 215, 165);
+        Product product19 = new Product("Printer 12", 520, 490, 365); 
+        Product product20 = new Product("Photocopier 3 ", 530, 870, 150);
+        Product product21 = new Product("Scanner  15", 590, 126, 270);
         
         Order order6 = new Order();
-        order6.newOrderItem(product14, 68000, 1);
-        order6.newOrderItem(product15, 295000, 4);
+        order6.newOrderItem(product14, 86, 1);
+        order6.newOrderItem(product15, 100, 1);
         MarketChannelAssignment mca6 = new MarketChannelAssignment("College Undergrads");
         order6.setMca(mca6);
         SalesPersonProfile salesPerson6 = new SalesPersonProfile(person005);
@@ -179,9 +179,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order6);
         
         Order order7 = new Order();
-        order7.newOrderItem(product16, 365000, 10);
-        order7.newOrderItem(product17, 60000, 1);
-        order7.newOrderItem(product18, 30000, 3);
+        order7.newOrderItem(product16, 300, 10);
+        order7.newOrderItem(product17, 630, 1);
+        order7.newOrderItem(product18, 300, 3);
         MarketChannelAssignment mca7 = new MarketChannelAssignment("Teenagers");
         order7.setMca(mca7);
         SalesPersonProfile salesPerson7 = new SalesPersonProfile(person006);
@@ -189,9 +189,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order7);
         
         Order order8 = new Order();
-        order8.newOrderItem(product19, 21000, 5);
-        order8.newOrderItem(product20, 230000, 7);
-        order8.newOrderItem(product21, 221000, 4);
+        order8.newOrderItem(product19, 210, 5);
+        order8.newOrderItem(product20, 230, 7);
+        order8.newOrderItem(product21, 200, 4);
         MarketChannelAssignment mca8 = new MarketChannelAssignment("Seniors");
         order8.setMca(mca8);
         SalesPersonProfile salesPerson8 = new SalesPersonProfile(person007);
@@ -207,20 +207,20 @@ class ConfigureABusiness {
         customer4.addCustomerOrder(order7);
         customer4.addCustomerOrder(order8);
         /* ---------------------------------------------------------------------------------------- */
-        Product product22 = new Product("Scanner 16", 900000, 135000, 105000);
-        Product product23 = new Product("Printer 4", 212000, 60000, 365000);
-        Product product24 = new Product("Photocopier 13", 30000, 70000, 50000);
-        Product product25 = new Product("Scanner 13  2", 32000, 36200, 18500);
-        Product product26 = new Product("Scanner 24", 10000, 25000, 16500);
-        Product product27 = new Product("Color Printer 222", 413400, 540000, 495000); 
-        Product product28 = new Product("Scanner 23  2", 22120, 36500, 25000);
-        Product product29 = new Product("Low toner Scanner  202", 195023, 551200, 365102);
-        Product product30 = new Product("Speedy color Scanner 711", 900000, 444440, 1650210);
-        Product product31 = new Product("Premier Printer 400", 322000, 470000, 736500);
-        Product product32 = new Product("Color Photocopier 700", 351000, 586000, 780000);
-        Product product33 = new Product("Photocopier 10001 ", 433020, 890200, 550000);
-        Product product34 = new Product("Printer 122", 52100, 490200, 362000);
-        Product product35 = new Product("Scanner  225", 59000, 126500, 275000);
+        Product product22 = new Product("Scanner 16", 90, 135, 105);
+        Product product23 = new Product("Printer 4", 212, 600, 365);
+        Product product24 = new Product("Photocopier 13", 300, 700, 500);
+        Product product25 = new Product("Scanner 13  2", 320, 362, 185);
+        Product product26 = new Product("Scanner 24", 100, 250, 165);
+        Product product27 = new Product("Color Printer 222", 413, 540, 495); 
+        Product product28 = new Product("Scanner 23  2", 221, 365, 250);
+        Product product29 = new Product("Low toner Scanner  202", 193, 550, 362);
+        Product product30 = new Product("Speedy color Scanner 711", 900, 440, 160);
+        Product product31 = new Product("Premier Printer 400", 320, 470, 400);
+        Product product32 = new Product("Color Photocopier 700", 350, 580, 780);
+        Product product33 = new Product("Photocopier 10001 ", 430, 800, 550);
+        Product product34 = new Product("Printer 122", 520, 490, 360);
+        Product product35 = new Product("Scanner  225", 590, 126, 275);
         
         Order order9 = new Order();
         order9.newOrderItem(product22, 13, 1);
@@ -232,9 +232,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order9);
         
         Order order10 = new Order();
-        order10.newOrderItem(product24, 70000, 2);
-        order10.newOrderItem(product25, 190000, 3);
-        order10.newOrderItem(product26, 20000, 5);
+        order10.newOrderItem(product24, 700, 2);
+        order10.newOrderItem(product25, 190, 3);
+        order10.newOrderItem(product26, 200, 5);
         MarketChannelAssignment mca10 = new MarketChannelAssignment("Seniors");
         order10.setMca(mca10);
         SalesPersonProfile salesPerson10 = new SalesPersonProfile(person007);
@@ -242,9 +242,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order10);
         
         Order order11 = new Order();
-        order11.newOrderItem(product27, 210000, 5);
-        order11.newOrderItem(product28, 230000, 7);
-        order11.newOrderItem(product29, 220000, 4);
+        order11.newOrderItem(product27, 210, 5);
+        order11.newOrderItem(product28, 230, 7);
+        order11.newOrderItem(product29, 220, 4);
         MarketChannelAssignment mca11 = new MarketChannelAssignment("Teenagers");
         order11.setMca(mca11);
         SalesPersonProfile salesPerson11 = new SalesPersonProfile(person005);
@@ -252,9 +252,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order11);
         
         Order order12 = new Order();
-        order12.newOrderItem(product30, 22020, 3);
-        order12.newOrderItem(product31, 22007, 4);
-        order12.newOrderItem(product32, 24000, 2);
+        order12.newOrderItem(product30, 220, 3);
+        order12.newOrderItem(product31, 227, 4);
+        order12.newOrderItem(product32, 240, 2);
         MarketChannelAssignment mca12 = new MarketChannelAssignment("Teenagers");
         order12.setMca(mca12);
         SalesPersonProfile salesPerson12 = new SalesPersonProfile(person006);
@@ -262,9 +262,9 @@ class ConfigureABusiness {
         masterOrderList.newOrder(order12);
         
         Order order13 = new Order();
-        order13.newOrderItem(product33, 24500, 7);
-        order13.newOrderItem(product34, 25000, 5);
-        order13.newOrderItem(product35, 25500, 9);
+        order13.newOrderItem(product33, 240, 7);
+        order13.newOrderItem(product34, 250, 5);
+        order13.newOrderItem(product35, 250, 9);
         MarketChannelAssignment mca13 = new MarketChannelAssignment("Seniors");
         order13.setMca(mca13);
         SalesPersonProfile salesPerson13 = new SalesPersonProfile(person007);
